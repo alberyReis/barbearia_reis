@@ -16,28 +16,67 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#cortes">Cortes</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#cortes"><li>Cortes</li></a>
+                    <a href="#sobre"><li>Sobre</li></a>
+                    <a href="#agendamento"><li>Agendamentos</li></a>
+                    <a href=""><li>Contato</li></a>
                 </ul>
             </nav>
         </div>
         <div class="slogan">
-            <blockquote>"Transforme seu dia com um corte de cabelo único. Visite nossa barbearia hoje mesmo!"</blockquote>
+            <blockquote>"Transforme seu dia com um corte de cabelo único!"</blockquote>
         </div>
     </header>
     <main>
-        <section id="cortes" class="cortes">
-            <div class="cards_cortes">
-
+        <section  id="cortes" class="container_cortes">
+            <a href="#"><img id="seta" src="./assets/img/seta_topo.png" alt=""></a>
+            <h1 class="h1_cortes">Cortes</h1>
+            <div class="cortes">
+                <div class="cards_cortes cards_cortes01">
+                    <h2 class="h2_cortes">Cabelo</h2>
+                    <p class="p_cortes">Comum.........R$20</p>
+                    <p class="p_cortes">Especial......R$50</p>
+                </div>
+                <div class="cards_cortes cards_cortes02">
+                    <h2>Barba</h2>
+                    <p class="p_cortes">Comum.........R$10</p>
+                    <p class="p_cortes">Especial......R$30</p>
+                </div>
+                <div class="cards_cortes cards_cortes03">
+                    <h2>Cabelo + Barba</h2>
+                    <p class="p_cortes">Comum.........R$30</p>
+                    <p class="p_cortes">Especial......R$80</p>
+                </div>
             </div>
-            <div class="cards_cortes">
-
+        </section>
+        <section id="sobre" class="sobre">
+            <a href="#"><img id="seta" src="./assets/img/seta_topo.png" alt=""></a>
+            <div class="container_sobre">
+                <div class="img_sobre"><img src="./assets/img/sobre.jpg" alt=""></div>
+                <div class="text_sobre">
+                    <p>Na Barbearia Reis, acreditamos que um corte de cabelo e barba bem-feitos não são apenas procedimentos estéticos, mas também uma forma de expressar sua personalidade única e se sentir confiante consigo mesmo. Nossa equipe de profissionais altamente qualificados está comprometida em oferecer a melhor experiência de cuidado com cabelos e barba em Aracaju. Utilizamos técnicas avançadas, equipamentos de última geração e produtos de alta qualidade para criar um visual personalizado que atenda às suas necessidades e expectativas. Venha nos visitar e sinta-se em casa em um ambiente descontraído e agradável, enquanto desfruta de nossos serviços de alta qualidade. Barbearia Reis - onde o cuidado com cabelos e barba é uma arte!</p>
+                </div>
             </div>
-            <div class="cards_cortes">
-
-            </div>
+        </section>
+        <section id="agendamento" class="agendamento">
+            <a href="#"><img id="seta" src="./assets/img/seta_topo.png" alt=""></a>
+            <form action="post">
+                <fieldset>
+                    <legend><h1>Agendamento</h1></legend>
+                    <label for="nome_completo">Nome Completo:</label>
+                    <input type="text" name="nome_completo" id="nome_completo" required>
+                    <label for="idade">Idade:</label>
+                    <input type="number" name="idade" id="idade" required>
+                    <label for="tel_contato">Telefone:</label>
+                    <input type="tel" name="tel_contato" id="tel_contato" required>
+                    <label for="data_horario">Escolha data e horario:</label>
+                    <input type="datetime-local" name="data_horario" id="data_horario" required>
+                    <label for="sugestao">Sugestões:</label>
+                    <textarea name="sugestao" id="sugestao" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar" id="enviar">
+                </fieldset>
+            </form>
         </section>
     </main>
     <script src="./assets/js/script.js"></script>
