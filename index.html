@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +9,52 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Barbearia Reis</title>
 </head>
+
 <body>
     <header>
-        <div class="topo">
+        <div id="menu">
+            <img class="img_menu" src="./assets/img/menu.png" alt="">
+            <nav id="navbar">
+                <ul class="itens">
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#cortes">
+                        <li>Cortes</li>
+                    </a>
+                    <a href="#sobre">
+                        <li>Sobre</li>
+                    </a>
+                    <a href="#agendamento">
+                        <li>Agendamento</li>
+                    </a>
+                    <a href="#contato">
+                        <li>Contato</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+        <div id="topo" class="topo">
             <div class="logo">
                 <img src="./assets/img/logo.png" alt="">
             </div>
             <nav>
                 <ul>
-                    <a href="#"><li>Home</li></a>
-                    <a href="#cortes"><li>Cortes</li></a>
-                    <a href="#sobre"><li>Sobre</li></a>
-                    <a href="#agendamento"><li>Agendamentos</li></a>
-                    <a href=""><li>Contato</li></a>
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#cortes">
+                        <li>Cortes</li>
+                    </a>
+                    <a href="#sobre">
+                        <li>Sobre</li>
+                    </a>
+                    <a href="#agendamento">
+                        <li>Agendamento</li>
+                    </a>
+                    <a href="#contato">
+                        <li>Contato</li>
+                    </a>
                 </ul>
             </nav>
         </div>
@@ -29,7 +63,7 @@
         </div>
     </header>
     <main>
-        <section  id="cortes" class="container_cortes">
+        <section id="cortes" class="container_cortes">
             <a href="#"><img id="seta" src="./assets/img/seta_topo.png" alt=""></a>
             <h1 class="h1_cortes">Cortes</h1>
             <div class="cortes">
@@ -55,7 +89,14 @@
             <div class="container_sobre">
                 <div class="img_sobre"><img src="./assets/img/sobre.jpg" alt=""></div>
                 <div class="text_sobre">
-                    <p>Na Barbearia Reis, acreditamos que um corte de cabelo e barba bem-feitos não são apenas procedimentos estéticos, mas também uma forma de expressar sua personalidade única e se sentir confiante consigo mesmo. Nossa equipe de profissionais altamente qualificados está comprometida em oferecer a melhor experiência de cuidado com cabelos e barba em Aracaju. Utilizamos técnicas avançadas, equipamentos de última geração e produtos de alta qualidade para criar um visual personalizado que atenda às suas necessidades e expectativas. Venha nos visitar e sinta-se em casa em um ambiente descontraído e agradável, enquanto desfruta de nossos serviços de alta qualidade. Barbearia Reis - onde o cuidado com cabelos e barba é uma arte!</p>
+                    <p>Na Barbearia Reis, acreditamos que um corte de cabelo e barba bem-feitos não são apenas
+                        procedimentos estéticos, mas também uma forma de expressar sua personalidade única e se sentir
+                        confiante consigo mesmo. Nossa equipe de profissionais altamente qualificados está comprometida
+                        em oferecer a melhor experiência de cuidado com cabelos e barba em Aracaju. Utilizamos técnicas
+                        avançadas, equipamentos de última geração e produtos de alta qualidade para criar um visual
+                        personalizado que atenda às suas necessidades e expectativas. Venha nos visitar e sinta-se em
+                        casa em um ambiente descontraído e agradável, enquanto desfruta de nossos serviços de alta
+                        qualidade. Barbearia Reis - onde o cuidado com cabelos e barba é uma arte!</p>
                 </div>
             </div>
         </section>
@@ -63,7 +104,9 @@
             <a href="#"><img id="seta" src="./assets/img/seta_topo.png" alt=""></a>
             <form action="post">
                 <fieldset>
-                    <legend><h1>Agendamento</h1></legend>
+                    <legend>
+                        <h1>Agendamento</h1>
+                    </legend>
                     <label for="nome_completo">Nome Completo:</label>
                     <input type="text" name="nome_completo" id="nome_completo" required>
                     <label for="idade">Idade:</label>
@@ -78,7 +121,26 @@
                 </fieldset>
             </form>
         </section>
+        <section id="contato" class="contato">
+            <a href="#"><img id="seta" src="./assets/img/seta_topo.png" alt=""></a>
+            <h1 class="h1_contato">Excelente localização</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.6474569874995!2d-37.05235239227709!3d-10.989960404106887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab12f0d6688cd%3A0xaf14c8847874b1ce!2sAv.%20Santos%20Dumont%2C%2080%20-%20Atalaia%2C%20Aracaju%20-%20SE%2C%2049037-475!5e0!3m2!1spt-PT!2sbr!4v1682202841535!5m2!1spt-PT!2sbr"
+                width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="numero_tel">
+                <a href="https://wa.me/5579991750905">
+                    <img src="./assets/img/whatsapp.png" alt="">
+                    <span>(79) 99175-0905</span>
+                </a>
+            </div>
+        </section>
     </main>
+    <footer>
+        <img src="./assets/img/logo_br.png" alt="">
+        <p>Copyright &copy; 2023 Barbearia Reis. Todos os direitos reservados.</p>
+    </footer>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
