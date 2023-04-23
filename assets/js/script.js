@@ -8,6 +8,7 @@ function onclickMe() {
             slogan.style.margin = '5px'
         } else {
             navbar.style.display = 'none' 
+            
         }
     })
 }
