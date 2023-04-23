@@ -333,6 +333,7 @@ footer p {
 
     .slogan {
         margin: 260px 50px 0 50px;
+        background-size: cover;
     }
    
     .container_cortes {
@@ -401,6 +402,7 @@ footer p {
     .slogan {
         font-size: 3em;
         margin: 260px 50px 0 50px;
+        background-size: cover;
     }
 
     .contato {
@@ -426,6 +428,7 @@ footer p {
     .slogan {
         font-size: 2em;
         margin: 260px 50px 0 50px;
+        background-size: cover;
     }
 
     .cards_cortes {
