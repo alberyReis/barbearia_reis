@@ -334,10 +334,6 @@ footer p {
     #topo {
         display: none;
     }
-
-    .slogan {
-        display: none;
-    }
    
     .container_cortes {
         height: 100%;
@@ -402,6 +398,10 @@ footer p {
         width: 100%;
     }
 
+    .slogan {
+        font-size: 3em;
+    }
+
     .contato {
         padding: 20px;
         height: 100%;
@@ -422,6 +422,10 @@ footer p {
 }
 
 @media (max-width: 575.98px) {
+    .slogan {
+        font-size: 2.5em;
+    }
+
     .cards_cortes {
         width: 80%;
     }
