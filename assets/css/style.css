@@ -335,7 +335,7 @@ footer p {
     }
 
     .slogan {
-        margin: 260px 50px 0 50px;
+        margin: 260px 10px 0 10px;
         background-size: cover;
     }
    
@@ -404,7 +404,7 @@ footer p {
 
     .slogan {
         font-size: 3em;
-        margin: 260px 50px 0 50px;
+        margin: 260px 10px 0 10px;
         background-size: cover;
     }
 
@@ -430,7 +430,7 @@ footer p {
 @media (max-width: 575.98px) {
     .slogan {
         font-size: 2.5em;
-        margin: 260px 50px 0 50px;
+        margin: 260px 10px 0 10px;
         background-size: cover;
     }
 
