@@ -40,7 +40,7 @@ header {
     position: absolute;
     right: 30px;
     background: #ffffff3a;
-    margin: 10px;
+    margin: 10px 0;
     padding: 5px;
     border-radius: 10px;
 }
@@ -51,7 +51,7 @@ header {
 }
 
 #navbar {
-    padding: 30px;
+    padding-top: 70px;
     margin: auto;
 }
 
@@ -324,6 +324,7 @@ footer p {
 
     #navbar {
         display: none;
+        padding-left: 40px;
     }
 
     #topo {
