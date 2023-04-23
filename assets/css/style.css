@@ -330,6 +330,10 @@ footer p {
     #topo {
         display: none;
     }
+
+    .slogan {
+        margin: 260px 50px 0 50px;
+    }
    
     .container_cortes {
         height: 100%;
@@ -396,6 +400,7 @@ footer p {
 
     .slogan {
         font-size: 3em;
+        margin: 260px 50px 0 50px;
     }
 
     .contato {
@@ -420,6 +425,7 @@ footer p {
 @media (max-width: 575.98px) {
     .slogan {
         font-size: 2em;
+        margin: 260px 50px 0 50px;
     }
 
     .cards_cortes {
