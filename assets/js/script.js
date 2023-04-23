@@ -8,7 +8,7 @@
             slogan.style.margin = '5px'
         } else {
             navbar.style.display = 'none' 
-            slogan.style.marginTop = '260px'
+            slogan.style.margin = '260px 50px 0 50px'
         }
     })
 })()
