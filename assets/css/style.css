@@ -38,7 +38,7 @@ header {
 }
 
 .img_menu {
-    width: 50px;
+    width: 40px;
     position: absolute;
     right: 0;
     top: 0;
@@ -354,12 +354,15 @@ footer p {
 
     .agendamento {
         height: 100%;
-        padding-bottom: 0 0 100px 0;
-
+        padding-bottom: 50px;
     }
 }
 
 @media (max-width: 767.98px) {
+    .img_menu {
+        width: 35px;
+    }
+
     #seta {
         width: 35px;
     }
@@ -396,6 +399,7 @@ footer p {
 
     .sobre img {
         width: 100%;
+
     }
 
     .slogan {
@@ -418,10 +422,15 @@ footer p {
 
     .numero_tel {
         font-size: 0.7em;
+        margin-bottom: 50px;
     }
 }
 
 @media (max-width: 575.98px) {
+    .img_menu {
+        width: 25px;
+    }
+
     .slogan {
         font-size: 2.5em;
     }
