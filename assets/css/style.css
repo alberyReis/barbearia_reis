@@ -38,13 +38,14 @@ header {
 }
 
 .img_menu {
-    width: 40px;
+    height: 35px;
+    width: 45px;
     position: absolute;
     right: 0;
     top: 0;
     background: #ffffff3a;
-    margin: 10px 30px;
-    padding: 5px;
+    margin: 20px 40px;
+    padding: 6px;
     border-radius: 10px;
 }
 
@@ -360,7 +361,8 @@ footer p {
 
 @media (max-width: 767.98px) {
     .img_menu {
-        width: 35px;
+        height: 30px;
+        width: 40px;
     }
 
     #seta {
@@ -428,7 +430,8 @@ footer p {
 
 @media (max-width: 575.98px) {
     .img_menu {
-        width: 25px;
+        height: 25px;
+        width: 35px;
     }
 
     .slogan {
