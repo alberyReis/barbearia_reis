@@ -1,4 +1,4 @@
-(function() {
+function onclickMe() {
     const menu = document.querySelector('#menu')
     const navbar = document.querySelector('#navbar')
     const slogan = document.querySelector('#slogan')
@@ -10,4 +10,5 @@
             navbar.style.display = 'none' 
         }
     })
-})()
+}
+onclickMe()
