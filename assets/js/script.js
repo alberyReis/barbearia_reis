@@ -1,4 +1,4 @@
-(function onclickMenu() {
+(function() {
     const menu = document.querySelector('#menu')
     const navbar = document.querySelector('#navbar')
     const slogan = document.querySelector('#slogan')
