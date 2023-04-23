@@ -5,10 +5,10 @@ function onclickMe() {
     menu.addEventListener('click', function() {
         if (navbar.style.display == 'none') {
             navbar.style.display = 'flex' 
-            slogan.style.marginTop = '5px'
+            slogan.style.display = 'none'
         } else {
             navbar.style.display = 'none' 
-            slogan.style.marginTop = '260px'
+            slogan.style.display = 'block'
         }
     })
 }
