@@ -1,4 +1,4 @@
-# projet_barbearia_reis_html_css_javascript
+# projeto_barbearia_reis_html_css_javascript
 
  Com o intuito de desenvolver um site funcional e atrativo para a Barbearia Reis, como um habilidoso desenvolvedor web autônomo, empreguei minhas habilidades em HTML, CSS e JavaScript puros, garantindo que cada aspecto da plataforma digital fosse cuidadosamente projetado para transmitir a identidade da empresa.
 
