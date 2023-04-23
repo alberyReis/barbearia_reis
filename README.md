@@ -10,7 +10,7 @@ Em resumo, como um especialista em desenvolvimento web, me dediquei incansavelme
 
 Site:
 
-![](https://github.com/alberyReis/projeto_barbeari_reis_html_css_bootstrap/blob/main/assets/img/template.png)
+![](https://github.com/alberyReis/barbearia_reis/blob/main/assets/img/template.png)
 
 Link:
 
