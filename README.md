@@ -8,10 +8,11 @@ Com o objetivo de tornar o site acessível em todos os dispositivos, apliquei as
 
 Em resumo, como um especialista em desenvolvimento web, me dediquei incansavelmente na criação do site da Barbearia Reis, utilizando as melhores práticas em design e tecnologia para produzir uma plataforma digital funcional, envolvente e de fácil acesso em todos os dispositivos.
 
+Link:
+
+[Barbearia Reis](https://alberyreis.github.io/barbearia_reis/)
+
 Site:
 
 ![](https://github.com/alberyReis/barbearia_reis/blob/main/assets/img/template.png)
 
-Link:
-
-[Barbearia Reis](https://alberyreis.github.io/barbearia_reis/)
